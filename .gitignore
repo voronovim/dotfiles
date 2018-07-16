@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.aliases
+!.zshrc
+
+# subdirectories
+#!*/
+
+# the files to be tracked are in subdirectories
+#!*/a/b/file1.txt
+#!*/a/b/c/*
