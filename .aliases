@@ -21,6 +21,9 @@ alias cdp='cd ~/Projects'
 # Gradle
 alias gwci='bash ./gradlew cleanIdea'
 alias gwcii='bash ./gradlew cleanIdea idea'
+alias gwcb='bash ./gradlew clean build'
+alias gwcj='bash ./gradlew clean jar'
+
 
 # Git
 alias gi="git init"
