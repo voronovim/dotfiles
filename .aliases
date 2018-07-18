@@ -18,12 +18,14 @@ alias vimrc='vim ~/.vimrc'
 
 alias cdp='cd ~/Projects'
 
+# Maven
+
 # Gradle
 alias gwci='bash ./gradlew cleanIdea'
 alias gwcii='bash ./gradlew cleanIdea idea'
 alias gwcb='bash ./gradlew clean build'
 alias gwcj='bash ./gradlew clean jar'
-
+alias gwd='bash ./gradlew dependencies'
 
 # Git
 alias gi="git init"
