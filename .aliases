@@ -19,6 +19,8 @@ alias vimrc='vim ~/.vimrc'
 alias cdp='cd ~/Projects'
 
 # Maven
+alias mvnci="mvn clean install"
+alias mcisk="mvnci -Dmaven.test.skip=true"
 
 # Gradle
 alias gwci='bash ./gradlew cleanIdea'
