@@ -18,6 +18,8 @@ alias vimrc='vim ~/.vimrc'
 
 alias cdp='cd ~/Projects'
 
+alias rmc='sudo -H mc'
+
 # Maven
 alias mvnci="mvn clean install"
 alias mcisk="mvnci -Dmaven.test.skip=true"
