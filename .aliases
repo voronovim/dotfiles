@@ -1,0 +1,52 @@
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+alias ls='ls --color=auto'
+alias l='ls -lFh --group-directories-first -v'
+alias la='ls -lAFh --group-directories-first -v'
+alias lr='ls -tRFh --group-directories-first -v'
+alias lt='ls -ltFh --group-directories-first -v'
+alias ll='ls -la --group-directories-first -v'
+alias ldot='ls -ld .*'
+alias lS='ls -1FSsh'
+alias lart='ls -1Fcart'
+alias lrt='ls -1Fcrt'
+
+alias zshrc='vim ~/.zshrc'
+alias vimrc='vim ~/.vimrc'
+
+alias cdp='cd ~/Projects'
+
+alias rmc='sudo -H mc'
+
+# Tor
+alias toron="sudo systemctl start tor"
+alias toroff="sudo systemctl stop tor"
+
+
+# Maven
+alias mvnci="mvn clean install"
+alias mcisk="mvnci -Dmaven.test.skip=true"
+
+# Gradle
+alias gwci='bash ./gradlew cleanIdea'
+alias gwcii='bash ./gradlew cleanIdea idea'
+alias gwcb='bash ./gradlew clean build'
+alias gwcj='bash ./gradlew clean jar'
+alias gwd='bash ./gradlew dependencies'
+
+# Git
+alias gi="git init"
+alias gs="git status"
+alias gd="git diff"
+alias gdh="git diff HEAD"
+alias gc="git clone $1 $2"
+alias gcm="git commit -m "$1""
+alias gaa="git add -A ."
+alias gpo="git push origin $1"
+alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias glo="git log --oneline"
+alias glodf="git log --oneline --decorate=full"
+alias grhh="git reset --hard HEAD"
+alias gcp="git cherry-pick $1"
