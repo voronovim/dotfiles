@@ -95,7 +95,3 @@ source ~/.aliases
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH="$HOME/Projects/personal/go"
 export GOBIN="$GOPATH/bin"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-#export SDKMAN_DIR="/home/ignat/.sdkman"
-#[[ -s "/home/ignat/.sdkman/bin/sdkman-init.sh" ]] && source "/home/ignat/.sdkman/bin/sdkman-init.sh"

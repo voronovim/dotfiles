@@ -24,7 +24,6 @@ alias rmc='sudo -H mc'
 alias toron="sudo systemctl start tor"
 alias toroff="sudo systemctl stop tor"
 
-
 # Maven
 alias mvnci="mvn clean install"
 alias mcisk="mvnci -Dmaven.test.skip=true"
